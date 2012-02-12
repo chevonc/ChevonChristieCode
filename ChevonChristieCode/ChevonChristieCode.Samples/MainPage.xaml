@@ -1,0 +1,40 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="ChevonChristieCode.Samples.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True"
+    xmlns:imageZooming="clr-namespace:ChevonChristieCode.Media;assembly=ChevonChristieCode">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Image x:Name="myImage" imageZooming:WP7ImageZoomer.IsZoomingEnabled="True" Source="/Images/ChevonChristie.jpg"/>
+    </Grid>
+
+    <!--UnComment to see clip to bounds this changes the clipping: imageZooming:ClipBound.ToBounds="True"-->
+    <!--<Border BorderBrush="Pink"  BorderThickness="3" Height="700" Width="400" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid Background="Transparent" imageZooming:ClipBound.ToBounds="True">
+        <Image imageZooming:WP7ImageZoomer.IsZoomingEnabled="True" Source="/ChevonChristie.jpg"/>
+    </Grid>
+    </Border>-->
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

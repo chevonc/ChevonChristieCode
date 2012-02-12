@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChevonChristieCode", "ChevonChristieCode\ChevonChristieCode.csproj", "{1B199B41-AF0D-4479-B6E1-2A7CDF21456D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChevonChristieCode.Samples", "ChevonChristieCode.Samples\ChevonChristieCode.Samples.csproj", "{28BD3740-7046-4620-B5CB-EEA8DC71097E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B199B41-AF0D-4479-B6E1-2A7CDF21456D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B199B41-AF0D-4479-B6E1-2A7CDF21456D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B199B41-AF0D-4479-B6E1-2A7CDF21456D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B199B41-AF0D-4479-B6E1-2A7CDF21456D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BD3740-7046-4620-B5CB-EEA8DC71097E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BD3740-7046-4620-B5CB-EEA8DC71097E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BD3740-7046-4620-B5CB-EEA8DC71097E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{28BD3740-7046-4620-B5CB-EEA8DC71097E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BD3740-7046-4620-B5CB-EEA8DC71097E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BD3740-7046-4620-B5CB-EEA8DC71097E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
