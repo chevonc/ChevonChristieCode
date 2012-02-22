@@ -6,6 +6,9 @@ using System.Xml.Serialization;
 
 namespace ChevonChristie.Extentions.IO
 {
+   /// <summary>
+   /// Stream and Data Saving/Loading Helpers
+   /// </summary>
    public static class IOHelpers
    {
       /// <summary>
@@ -120,6 +123,17 @@ namespace ChevonChristie.Extentions.IO
          }
 
          return true;
+      }
+
+      /// <summary>
+      /// Dates the name of the time now to file.
+      /// </summary>
+      /// <returns></returns>
+      public static string DateTimeNowToFileName()
+      {
+         string s1 = DateTime.Now.ToLongDateString().Replace(" ", "_").Replace(",", "_");
+         string s2 = DateTime.Now.ToLongTimeString().Replace(" ", "_").Replace(":", "_");
+         return string.Format("{0}{1}", s1, s2);
       }
    }
 }

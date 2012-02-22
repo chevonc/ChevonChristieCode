@@ -5,7 +5,9 @@ namespace ChevonChristieCode.Misc
 {
 
    /// <summary>
-   /// A timer modeled off silverlight's DispatcherTimer. It behaves the same and can be setup just as easily!
+   /// A timer modeled off silverlight's DispatcherTimer. It can be setup just as easily!
+   /// Not that the tick event of this time occurs off the UI thread. If you need access to 
+   /// UI elements, use the old DispatcherTimer
    /// </summary>
    public class CustomTimer
    {

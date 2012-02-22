@@ -61,16 +61,5 @@ namespace ChevonChristieCode.Misc
 
          OutputEnd();
       }
-
-      /// <summary>
-      /// Dates the name of the time now to file.
-      /// </summary>
-      /// <returns></returns>
-      public static string DateTimeNowToFileName()
-      {
-         string s1 = DateTime.Now.ToLongDateString().Replace(" ", "_").Replace(",", "_");
-         string s2 = DateTime.Now.ToLongTimeString().Replace(" ", "_").Replace(":", "_");
-         return string.Format("{0}{1}", s1, s2);
-      }
    }
 }

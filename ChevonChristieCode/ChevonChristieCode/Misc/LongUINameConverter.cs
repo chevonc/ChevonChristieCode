@@ -22,8 +22,8 @@ namespace ChevonChristieCode.Misc
          int.TryParse(parameter as string, out x);
          string val  = value as string;
 
-         if (val == null)
-            return "...";
+         if (string.IsNullOrEmpty(val))
+            return val;
 
          if (val.Length > x)
             return (val).Substring(0, x) + "...";

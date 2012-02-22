@@ -10,6 +10,9 @@ using Microsoft.Phone.Controls;
 //when an image is dragged past the end of the screen, and it snaps back
 namespace ChevonChristieCode.Media
 {
+   /// <summary>
+   /// Allows you to zoom images displayed in an image control
+   /// </summary>
    public class WP7ImageZoomer : DependencyObject
    {
       private WP7ImageZoomer()

@@ -9,6 +9,16 @@ using ChevonChristieCode.Misc;
 
 namespace ChevonChristieCode.Data
 {
+   /// <summary>
+   /// This class provides synchronized access to a SQLCE database for multithreaded scenarios.
+   /// SQL CE doesn't like to be queried by multiple threads, and this quickly becomes an issue with 
+   /// apps that include synchronizing data in the background and reading data to present to the UI.
+   /// Use BeginDatabaseInteraction to block all other threads, except the current, from access the database
+   /// Use EndDatabaseInteraction when all databse queries/actions have been completed to allow other threads to access.
+   /// Note that when accessing from the UI Thread one should use BeingUIDatabaseInteraction and EndUIDatabaseInteraction
+   /// these methods have higher priority that the regular Begin and End, and will trump other threads when it comes to
+   /// accessing the database - this way the UI does not have to wait as long.
+   /// </summary>
    public class SQLCEDatabse : DataContext
    {
       private static readonly AutoResetEvent r_DBSync = new AutoResetEvent(true);
@@ -99,11 +109,9 @@ namespace ChevonChristieCode.Data
       {
          try
          {
-            // Generate the database (with structure) from the code-based data context
             SQLCEDatabse.GlobalInstance.CreateDatabase();
-            SQLCEDatabse.BeginDatabaseInteraction();
-            SQLCEDatabse.EndDatabaseInteraction();
             SQLCEDatabse.GlobalInstance.SubmitChanges();
+            //Insert default objects into database here
          }
          catch (Exception ex)
          {
@@ -218,6 +226,7 @@ namespace ChevonChristieCode.Data
       /// <summary>
       /// Computes the set of modified objects to be inserted, updated, or deleted, and executes the appropriate commands to implement the changes to the database.
       /// </summary>
+      /// <remarks>No need to call BeginDatabseInteraction. It is called internally.</remarks>
       public new void SubmitChanges()
       {
          this.SubmitChanges(false);
@@ -227,6 +236,7 @@ namespace ChevonChristieCode.Data
       /// <summary>
       /// Submits the changes.
       /// </summary>
+      /// <remarks>No need to call BeginDatabseInteraction. It is called internally.</remarks>
       /// <param name="useUIPriority">if set to <c>true</c> [use UI priority].</param>
       public void SubmitChanges(bool useUIPriority = false)
       {
@@ -313,6 +323,7 @@ namespace ChevonChristieCode.Data
       /// <summary>
       /// Inserts the collection into store.
       /// </summary>
+      /// <remarks>No need to call BeginDatabseInteraction. It is called internally.</remarks>
       /// <typeparam name="T"></typeparam>
       /// <param name="items">The items.</param>
       /// <param name="table">The table.</param>
@@ -337,6 +348,7 @@ namespace ChevonChristieCode.Data
       /// <summary>
       /// Deletes the collection from store.
       /// </summary>
+      /// <remarks>No need to call BeginDatabseInteraction. It is called internally.</remarks>
       /// <typeparam name="T"></typeparam>
       /// <param name="items">The items.</param>
       /// <param name="table">The table.</param>
@@ -362,6 +374,7 @@ namespace ChevonChristieCode.Data
       /// <summary>
       /// Inserts the specified item.
       /// </summary>
+      /// <remarks>No need to call BeginDatabseInteraction. It is called internally.</remarks>
       /// <typeparam name="T"></typeparam>
       /// <param name="item">The item.</param>
       /// <param name="table">The table.</param>
@@ -382,11 +395,10 @@ namespace ChevonChristieCode.Data
             SQLCEDatabse.GlobalInstance.SubmitChanges();
       }
 
-
-
       /// <summary>
       /// Deletes the specified item.
       /// </summary>
+      /// <remarks>No need to call BeginDatabseInteraction. It is called internally.</remarks>
       /// <typeparam name="T"></typeparam>
       /// <param name="item">The item.</param>
       /// <param name="table">The table.</param>
@@ -411,6 +423,7 @@ namespace ChevonChristieCode.Data
       /// <summary>
       /// Deletes all tables.
       /// </summary>
+      /// <remarks>No need to call BeginDatabseInteraction. It is called internally.</remarks>
       /// <returns></returns>
       protected static bool DeleteAllTables()
       {
