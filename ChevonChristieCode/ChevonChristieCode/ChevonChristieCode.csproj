@@ -59,7 +59,7 @@
     <Compile Include="Media\ClipBound.cs" />
     <Compile Include="Media\ImageZoomer.cs" />
     <Compile Include="Media\ImageZoomerSettings.cs" />
-    <Compile Include="Data\SQLCEDatabse.cs" />
+    <Compile Include="Data\SQLCEDatabase.cs" />
     <Compile Include="Misc\CustomTimer.cs" />
     <Compile Include="Misc\GetHtmlText.cs" />
     <Compile Include="Misc\CommonHelpers.cs" />
