@@ -18,6 +18,9 @@ namespace ChevonChristieCode.Data
    /// Note that when accessing from the UI Thread one should use BeingUIDatabaseInteraction and EndUIDatabaseInteraction
    /// these methods have higher priority that the regular Begin and End, and will trump other threads when it comes to
    /// accessing the database - this way the UI does not have to wait as long.
+   /// Note - Do not call any Begin method twice before calling end, you will get a deadlock
+   /// Note - Methods internal to the database call Begin and End automatically. You are only responsible for using begin and end when directly
+   /// accessing databse tables
    /// </summary>
    public class SQLCEDatabase : DataContext
    {
@@ -414,7 +417,7 @@ namespace ChevonChristieCode.Data
          {
 
          }
-         SQLCEDatabase.BeginDatabaseInteraction();
+         SQLCEDatabase.EndDatabaseInteraction();
 
          if (saveNow)
             SQLCEDatabase.GlobalInstance.SubmitChanges();
