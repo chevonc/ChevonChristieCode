@@ -1,0 +1,42 @@
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ApplicationIcon.png
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\Background.png
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ChevonChristieCode.Samples.dll
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ChevonChristieCode.Samples.pdb
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ChevonChristieCode.dll
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\Microsoft.Phone.Controls.dll
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ChevonChristieCode.pdb
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\Microsoft.Phone.Controls.xml
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\App.g.i.cs
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\MainPage.g.i.cs
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\ChevonChristieCode.Samples.g.resources
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\ChevonChristieCode.Samples.dll
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\ChevonChristieCode.Samples.pdb
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\AppManifest.xaml
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ChevonChristieCode.Samples.xap
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\XapCacheFile.xml
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ChevonChristieCode.xml
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ApplicationIcon.png
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\Background.png
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ChevonChristieCode.Samples.dll
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ChevonChristieCode.Samples.pdb
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\AppManifest.xaml
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ChevonChristieCode.Samples.xap
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ChevonChristieCode.dll
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ChevonChristieCode.pdb
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\ChevonChristieCode.xml
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\ResolveAssemblyReference.cache
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\App.g.i.cs
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\MainPage.g.i.cs
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\ChevonChristieCode.Samples.g.resources
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\ChevonChristieCode.Samples.dll
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\ChevonChristieCode.Samples.pdb
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.Samples\obj\Debug\XapCacheFile.xml

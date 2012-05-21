@@ -1,0 +1,12 @@
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Debug\ResolveAssemblyReference.cache
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\bin\Debug\ChevonChristieCode.WPUtilities.dll
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\bin\Debug\ChevonChristieCode.WPUtilities.pdb
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Debug\ResolveAssemblyReference.cache
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Debug\ChevonChristieCode.WPUtilities.dll
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Debug\ChevonChristieCode.WPUtilities.pdb
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\bin\Debug\ExifLibrary.dll
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\bin\Debug\ChevonChristieCode.WPUtilities.dll
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\bin\Debug\ChevonChristieCode.WPUtilities.pdb
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\bin\Debug\ExifLibrary.dll
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Debug\ChevonChristieCode.WPUtilities.dll
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Debug\ChevonChristieCode.WPUtilities.pdb

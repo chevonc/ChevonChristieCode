@@ -1,0 +1,6 @@
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\bin\Release\ChevonChristieCode.WPUtilities.dll
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\bin\Release\ChevonChristieCode.WPUtilities.pdb
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\bin\Release\ExifLibrary.dll
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Release\ResolveAssemblyReference.cache
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Release\ChevonChristieCode.WPUtilities.dll
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Release\ChevonChristieCode.WPUtilities.pdb

@@ -1,0 +1,16 @@
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ChevonChristieCode.WPConsoleTool.exe
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ChevonChristieCode.WPConsoleTool.pdb
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ChevonChristieCode.WPUtilities.dll
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ChevonChristieCode.WPUtilities.pdb
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\obj\x86\Debug\ChevonChristieCode.WPConsoleTool.exe
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\obj\x86\Debug\ChevonChristieCode.WPConsoleTool.pdb
+C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ExifLibrary.dll
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ChevonChristieCode.WPConsoleTool.exe
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ChevonChristieCode.WPConsoleTool.pdb
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ChevonChristieCode.WPUtilities.dll
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ExifLibrary.dll
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ChevonChristieCode.WPUtilities.pdb
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\obj\x86\Debug\ChevonChristieCode.WPConsoleTool.exe
+E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\obj\x86\Debug\ChevonChristieCode.WPConsoleTool.pdb
