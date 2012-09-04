@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FixingMethod.cs" />
+    <Compile Include="TargetAction.cs" />
     <Compile Include="WPPictureFolderFixer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WPPictureFolderFixerResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="External Refs\ExifLibrary.dll" />

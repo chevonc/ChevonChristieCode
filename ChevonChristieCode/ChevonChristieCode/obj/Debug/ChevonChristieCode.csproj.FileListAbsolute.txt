@@ -16,3 +16,13 @@ C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\Chev
 C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\obj\Debug\ChevonChristieCode.dll
 C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\obj\Debug\ChevonChristieCode.pdb
 C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\Bin\Debug\ChevonChristieCode.XML
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\Bin\Debug\ChevonChristieCode.dll
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\Bin\Debug\ChevonChristieCode.pdb
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\Bin\Debug\Microsoft.Phone.Controls.xml
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\obj\Debug\ResolveAssemblyReference.cache
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\obj\Debug\ChevonChristieCode.dll
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\obj\Debug\ChevonChristieCode.pdb

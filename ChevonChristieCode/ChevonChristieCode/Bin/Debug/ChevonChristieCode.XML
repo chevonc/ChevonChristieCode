@@ -4,90 +4,81 @@
         <name>ChevonChristieCode</name>
     </assembly>
     <members>
-        <member name="M:ChevonChristieCode.Misc.LongUINameConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+        <member name="T:ChevonChristieCode.Misc.CustomTimer">
             <summary>
-            Modifies the source data before passing it to the target for display in the UI.
-            </summary>
-            <param name="value">The source data being passed to the target.</param>
-            <param name="targetType">The <see cref="T:System.Type"/> of data expected by the target dependency property.</param>
-            <param name="parameter">An the max length to display before replacing remainder of letters with "..."</param>
-            <param name="culture">The culture of the conversion.</param>
-            <returns>
-            The value to be passed to the target dependency property.
-            </returns>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.GetHtmlText.GetInnerHtmltext(System.String)">
-            <summary>
-            Gets the inner htmltext.
-            </summary>
-            <param name="data">The data.</param>
-            <returns></returns>
-        </member>
-        <member name="T:ChevonChristieCode.Misc.RandomPassword">
-            <summary>
-            This class can generate random passwords, which do not include ambiguous 
-            characters, such as I, l, and 1. The generated password will be made of
-            7-bit ASCII symbols. Every four characters will include one lower case
-            character, one upper case character, one number, and one special symbol
-            (such as '%') in a random order. The password will always start with an
-            alpha-numeric character; it will not start with a special symbol (we do
-            this because some back-end systems do not like certain special
-            characters in the first position).
+            A timer modeled off silverlight's DispatcherTimer. It can be setup just as easily!
+            Not that the tick event of this time occurs off the UI thread. If you need access to 
+            UI elements, use the old DispatcherTimer
             </summary>
         </member>
-        <member name="M:ChevonChristieCode.Misc.RandomPassword.Generate">
+        <member name="M:ChevonChristieCode.Misc.CustomTimer.#ctor">
             <summary>
-            Generates a random password.
-            </summary>
-            <returns>
-            Randomly generated password.
-            </returns>
-            <remarks>
-            The length of the generated password will be determined at
-            random. It will be no shorter than the minimum default and
-            no longer than maximum default.
-            </remarks>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.RandomPassword.Generate(System.Int32)">
-            <summary>
-            Generates a random password of the exact length.
-            </summary>
-            <param name="length">
-            Exact password length.
-            </param>
-            <returns>
-            Randomly generated password.
-            </returns>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.RandomPassword.Generate(System.Int32,System.Int32)">
-            <summary>
-            Generates a random password.
-            </summary>
-            <param name="minLength">
-            Minimum password length.
-            </param>
-            <param name="maxLength">
-            Maximum password length.
-            </param>
-            <returns>
-            Randomly generated password.
-            </returns>
-            <remarks>
-            The length of the generated password will be determined at
-            random and it will fall with the range determined by the
-            function parameters.
-            </remarks>
-        </member>
-        <member name="T:ChevonChristieCode.Misc.RandomPasswordTest">
-            <summary>
-            Illustrates the use of the RandomPassword class.
+            Initializes a new instance of the <see cref="T:ChevonChristieCode.Misc.CustomTimer"/> class.
             </summary>
         </member>
-        <member name="M:ChevonChristieCode.Misc.RandomPasswordTest.Main(System.String[])">
-             <summary>
-             The main entry point for the application.
-             </summary>
-            [STAThread]
+        <member name="M:ChevonChristieCode.Misc.CustomTimer.#ctor(System.TimeSpan,System.Object)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ChevonChristieCode.Misc.CustomTimer"/> class.
+            </summary>
+            <param name="time">The time.</param>
+            <param name="state">The state.</param>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.CustomTimer.InitializeTimer(System.TimeSpan,System.Object)">
+            <summary>
+            Initializes the timer.
+            </summary>
+            <param name="time">The time.</param>
+            <param name="state">The state.</param>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.CustomTimer.#ctor(System.Int32,System.Object)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ChevonChristieCode.Misc.CustomTimer"/> class.
+            </summary>
+            <param name="milliseconds">The milliseconds.</param>
+            <param name="state">The state.</param>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.CustomTimer.ChangeInterval(System.TimeSpan)">
+            <summary>
+            Changes the interval.
+            </summary>
+            <param name="newInterval">The new interval.</param>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.CustomTimer.InternalTimerTicked(System.Object)">
+            <summary>
+            Internals the timer ticked.
+            </summary>
+            <param name="state">The state.</param>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.CustomTimer.Start">
+            <summary>
+            Starts this instance.
+            </summary>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.CustomTimer.Stop">
+            <summary>
+            Stops this instance.
+            </summary>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.CustomTimer.StartOrStop(System.Boolean)">
+            <summary>
+            Starts the or stop.
+            </summary>
+            <param name="shouldStart">if set to <c>true</c> [should start].</param>
+        </member>
+        <member name="P:ChevonChristieCode.Misc.CustomTimer.Interval">
+            <summary>
+            Gets or sets the interval.
+            </summary>
+            <value>
+            The interval.
+            </value>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:ChevonChristieCode.Media.ClipBound.ToBoundsProperty" -->
+        <member name="M:ChevonChristieCode.Media.ClipBound.ClipToBounds(System.Windows.FrameworkElement)">
+            <summary>
+            Creates a rectangular clipping geometry which matches the geometry of the
+            passed element
+            </summary>
         </member>
         <member name="M:ChevonChristie.Extentions.ExtensionsAndHelpers.UpdateIfLargerOrAdd(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.Double)">
             <summary>
@@ -322,6 +313,49 @@
             Gets the scan biz cards data base.
             </summary>
         </member>
+        <member name="T:ChevonChristie.Extentions.IO.IOHelpers">
+            <summary>
+            Stream and Data Saving/Loading Helpers
+            </summary>
+        </member>
+        <member name="M:ChevonChristie.Extentions.IO.IOHelpers.ReadToEndExtension(System.IO.Stream)">
+            <summary>
+            Reads to end.
+            </summary>
+            <param name="stream">The stream.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChevonChristie.Extentions.IO.IOHelpers.ReadToEnd(System.IO.Stream)">
+            <summary>
+            Reads to end.
+            </summary>
+            <param name="stream">The stream.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChevonChristie.Extentions.IO.IOHelpers.DeSerializeData``1(System.String,``0)">
+            <summary>
+            Datas the load serialize.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="fileLocation">The file location.</param>
+            <param name="defaultValue">The default value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChevonChristie.Extentions.IO.IOHelpers.SerializeData``1(System.String,``0)">
+            <summary>
+            Serializes the data.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="fileLocation">Name of the file.</param>
+            <param name="collection">The collection.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChevonChristie.Extentions.IO.IOHelpers.DateTimeNowToFileName">
+            <summary>
+            Dates the name of the time now to file.
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:ChevonChristieCode.Misc.WordProcessor.GetWords(System.String,System.Boolean,System.Boolean,System.Boolean)">
             <summary>
             //parameter sytntax with "this" and static declaration of method marks it as extension
@@ -382,139 +416,12 @@
             <param name="StringToUpperCase">The string to upper case.</param>
             <returns></returns>
         </member>
-        <member name="M:ChevonChristieCode.Misc.CommonHelpers.OutputError(System.String)">
+        <member name="M:ChevonChristieCode.Misc.GetHtmlText.GetInnerHtmltext(System.String)">
             <summary>
-            Outputs the error.
+            Gets the inner htmltext.
             </summary>
-            <param name="msg">The MSG.</param>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.CommonHelpers.OutputBegin">
-            <summary>
-            Outputs the begin.
-            </summary>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.CommonHelpers.OutputEnd">
-            <summary>
-            Outputs the end.
-            </summary>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.CommonHelpers.OutputError(System.Exception)">
-            <summary>
-            Outputs the error.
-            </summary>
-            <param name="e">The e.</param>
-        </member>
-        <member name="T:ChevonChristie.Extentions.IO.IOHelpers">
-            <summary>
-            Stream and Data Saving/Loading Helpers
-            </summary>
-        </member>
-        <member name="M:ChevonChristie.Extentions.IO.IOHelpers.ReadToEndExtension(System.IO.Stream)">
-            <summary>
-            Reads to end.
-            </summary>
-            <param name="stream">The stream.</param>
+            <param name="data">The data.</param>
             <returns></returns>
-        </member>
-        <member name="M:ChevonChristie.Extentions.IO.IOHelpers.ReadToEnd(System.IO.Stream)">
-            <summary>
-            Reads to end.
-            </summary>
-            <param name="stream">The stream.</param>
-            <returns></returns>
-        </member>
-        <member name="M:ChevonChristie.Extentions.IO.IOHelpers.DeSerializeData``1(System.String,``0)">
-            <summary>
-            Datas the load serialize.
-            </summary>
-            <typeparam name="T"></typeparam>
-            <param name="fileLocation">The file location.</param>
-            <param name="defaultValue">The default value.</param>
-            <returns></returns>
-        </member>
-        <member name="M:ChevonChristie.Extentions.IO.IOHelpers.SerializeData``1(System.String,``0)">
-            <summary>
-            Serializes the data.
-            </summary>
-            <typeparam name="T"></typeparam>
-            <param name="fileLocation">Name of the file.</param>
-            <param name="collection">The collection.</param>
-            <returns></returns>
-        </member>
-        <member name="M:ChevonChristie.Extentions.IO.IOHelpers.DateTimeNowToFileName">
-            <summary>
-            Dates the name of the time now to file.
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="T:ChevonChristieCode.Misc.CustomTimer">
-            <summary>
-            A timer modeled off silverlight's DispatcherTimer. It can be setup just as easily!
-            Not that the tick event of this time occurs off the UI thread. If you need access to 
-            UI elements, use the old DispatcherTimer
-            </summary>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.CustomTimer.#ctor">
-            <summary>
-            Initializes a new instance of the <see cref="T:ChevonChristieCode.Misc.CustomTimer"/> class.
-            </summary>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.CustomTimer.#ctor(System.TimeSpan,System.Object)">
-            <summary>
-            Initializes a new instance of the <see cref="T:ChevonChristieCode.Misc.CustomTimer"/> class.
-            </summary>
-            <param name="time">The time.</param>
-            <param name="state">The state.</param>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.CustomTimer.InitializeTimer(System.TimeSpan,System.Object)">
-            <summary>
-            Initializes the timer.
-            </summary>
-            <param name="time">The time.</param>
-            <param name="state">The state.</param>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.CustomTimer.#ctor(System.Int32,System.Object)">
-            <summary>
-            Initializes a new instance of the <see cref="T:ChevonChristieCode.Misc.CustomTimer"/> class.
-            </summary>
-            <param name="milliseconds">The milliseconds.</param>
-            <param name="state">The state.</param>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.CustomTimer.ChangeInterval(System.TimeSpan)">
-            <summary>
-            Changes the interval.
-            </summary>
-            <param name="newInterval">The new interval.</param>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.CustomTimer.InternalTimerTicked(System.Object)">
-            <summary>
-            Internals the timer ticked.
-            </summary>
-            <param name="state">The state.</param>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.CustomTimer.Start">
-            <summary>
-            Starts this instance.
-            </summary>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.CustomTimer.Stop">
-            <summary>
-            Stops this instance.
-            </summary>
-        </member>
-        <member name="M:ChevonChristieCode.Misc.CustomTimer.StartOrStop(System.Boolean)">
-            <summary>
-            Starts the or stop.
-            </summary>
-            <param name="shouldStart">if set to <c>true</c> [should start].</param>
-        </member>
-        <member name="P:ChevonChristieCode.Misc.CustomTimer.Interval">
-            <summary>
-            Gets or sets the interval.
-            </summary>
-            <value>
-            The interval.
-            </value>
         </member>
         <member name="T:ChevonChristieCode.Media.WP7ImageZoomer">
             <summary>
@@ -571,12 +478,105 @@
             Tells if the scaling is inside the desired range
             </summary>
         </member>
-        <!-- Badly formed XML comment ignored for member "F:ChevonChristieCode.Media.ClipBound.ToBoundsProperty" -->
-        <member name="M:ChevonChristieCode.Media.ClipBound.ClipToBounds(System.Windows.FrameworkElement)">
+        <member name="T:ChevonChristieCode.Misc.RandomPassword">
             <summary>
-            Creates a rectangular clipping geometry which matches the geometry of the
-            passed element
+            This class can generate random passwords, which do not include ambiguous 
+            characters, such as I, l, and 1. The generated password will be made of
+            7-bit ASCII symbols. Every four characters will include one lower case
+            character, one upper case character, one number, and one special symbol
+            (such as '%') in a random order. The password will always start with an
+            alpha-numeric character; it will not start with a special symbol (we do
+            this because some back-end systems do not like certain special
+            characters in the first position).
             </summary>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.RandomPassword.Generate">
+            <summary>
+            Generates a random password.
+            </summary>
+            <returns>
+            Randomly generated password.
+            </returns>
+            <remarks>
+            The length of the generated password will be determined at
+            random. It will be no shorter than the minimum default and
+            no longer than maximum default.
+            </remarks>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.RandomPassword.Generate(System.Int32)">
+            <summary>
+            Generates a random password of the exact length.
+            </summary>
+            <param name="length">
+            Exact password length.
+            </param>
+            <returns>
+            Randomly generated password.
+            </returns>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.RandomPassword.Generate(System.Int32,System.Int32)">
+            <summary>
+            Generates a random password.
+            </summary>
+            <param name="minLength">
+            Minimum password length.
+            </param>
+            <param name="maxLength">
+            Maximum password length.
+            </param>
+            <returns>
+            Randomly generated password.
+            </returns>
+            <remarks>
+            The length of the generated password will be determined at
+            random and it will fall with the range determined by the
+            function parameters.
+            </remarks>
+        </member>
+        <member name="T:ChevonChristieCode.Misc.RandomPasswordTest">
+            <summary>
+            Illustrates the use of the RandomPassword class.
+            </summary>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.RandomPasswordTest.Main(System.String[])">
+             <summary>
+             The main entry point for the application.
+             </summary>
+            [STAThread]
+        </member>
+        <member name="M:ChevonChristieCode.Misc.CommonHelpers.OutputError(System.String)">
+            <summary>
+            Outputs the error.
+            </summary>
+            <param name="msg">The MSG.</param>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.CommonHelpers.OutputBegin">
+            <summary>
+            Outputs the begin.
+            </summary>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.CommonHelpers.OutputEnd">
+            <summary>
+            Outputs the end.
+            </summary>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.CommonHelpers.OutputError(System.Exception)">
+            <summary>
+            Outputs the error.
+            </summary>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:ChevonChristieCode.Misc.LongUINameConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <param name="value">The source data being passed to the target.</param>
+            <param name="targetType">The <see cref="T:System.Type"/> of data expected by the target dependency property.</param>
+            <param name="parameter">An the max length to display before replacing remainder of letters with "..."</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the target dependency property.
+            </returns>
         </member>
     </members>
 </doc>

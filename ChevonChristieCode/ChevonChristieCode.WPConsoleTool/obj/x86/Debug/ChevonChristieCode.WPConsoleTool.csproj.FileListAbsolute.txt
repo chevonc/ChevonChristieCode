@@ -14,3 +14,11 @@ E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChr
 E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\obj\x86\Debug\ResolveAssemblyReference.cache
 E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\obj\x86\Debug\ChevonChristieCode.WPConsoleTool.exe
 E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\obj\x86\Debug\ChevonChristieCode.WPConsoleTool.pdb
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\obj\x86\Debug\ChevonChristieCode.WPConsoleTool.exe
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\obj\x86\Debug\ChevonChristieCode.WPConsoleTool.pdb
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ChevonChristieCode.WPConsoleTool.exe
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ChevonChristieCode.WPConsoleTool.pdb
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ChevonChristieCode.WPUtilities.dll
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ExifLibrary.dll
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\bin\Debug\ChevonChristieCode.WPUtilities.pdb
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPConsoleTool\obj\x86\Debug\ResolveAssemblyReference.cache

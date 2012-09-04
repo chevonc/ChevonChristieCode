@@ -10,3 +10,9 @@ E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChr
 E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\bin\Debug\ExifLibrary.dll
 E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Debug\ChevonChristieCode.WPUtilities.dll
 E:\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Debug\ChevonChristieCode.WPUtilities.pdb
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\bin\Debug\ChevonChristieCode.WPUtilities.dll
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\bin\Debug\ChevonChristieCode.WPUtilities.pdb
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\bin\Debug\ExifLibrary.dll
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Debug\ResolveAssemblyReference.cache
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Debug\ChevonChristieCode.WPUtilities.dll
+D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode.WPUtilities\obj\Debug\ChevonChristieCode.WPUtilities.pdb
