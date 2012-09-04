@@ -6,10 +6,3 @@ C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\Chev
 C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\Bin\Release\Microsoft.Phone.Controls.xml
 C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\obj\Release\ChevonChristieCode.dll
 C:\Mesh Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\obj\Release\ChevonChristieCode.pdb
-D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\Bin\Release\ChevonChristieCode.dll
-D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\Bin\Release\ChevonChristieCode.pdb
-D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\Bin\Release\Microsoft.Phone.Controls.dll
-D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\Bin\Release\Microsoft.Phone.Controls.xml
-D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\obj\Release\ResolveAssemblyReference.cache
-D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\obj\Release\ChevonChristieCode.dll
-D:\Cloud Files\SkyDrive\Documents\Visual Studio 2010\Projects\OpenSource\ChevonChristieCode\ChevonChristieCode\obj\Release\ChevonChristieCode.pdb
